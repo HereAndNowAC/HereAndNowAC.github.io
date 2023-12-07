@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Here&Now|AirConditioning</title>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css" />
+  <!-- Fontawesome Css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="mediaQuery.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
+</head>
+
+<body>
+  <div id="mai">
+    <header>
+      <nav>
+        <div id="bar">
+          <span id="span_1" class="class_1"></span>
+          <span id="span_2" class="class_2"></span>
+          <span id="span_3" class="class_3"></span>
+        </div>
+        <div class="logo">
+          <a href="index.html"> <img src="images/HNACLogo-Main.png" style="width: 100%;     
+        object-fit: cover;"></a>
+        </div>
+        <div class="menu" id="menu">
+          <div class="" id="over">
+          </div>
+          <ul>
+            <li><a href="index.html" class="active-link">Home</a></li>
+            <li><a href="portfolio.html" class="active-link">Projects</a></li>
+            <li><a href="contact.html " class="active-link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="contact-container">
+      <h1>Contact us</h1>
+      <div class="contact">
+        <div class="left-content">
+          <p>Have a question or comment?
+            Use the form below to send us a message</p>
+          <form>
+            <div style="display:flex; width:100%;gap:rem;">
+              <input type="text" placeholder="First Name" name="FirstName" value=""
+                style="flex-grow: 1;margin-right:1rem;">
+              <input type="text" placeholder="Last Name" name="LasttName" value="" style="flex-grow: 1;">
+            </div>
+            <div style="display:flex;width:100%">
+              <input type="email" placeholder="Email" name="email" value="" style="flex-grow: 1" ;>
+            </div>
+            <div style="display:flex;width:100%">
+              <input type="text" placeholder="Subject" name="subject" value="" style="flex-grow: 1" ;>
+            </div>
+            <div style="display:flex;width:100%">
+              <textarea id="message" name="message" rows="6" cols="50" placeholder="Message"
+                style="flex-grow: 1"></textarea>
+            </div>
+            <div class="" style="display:flex;width:100%;overflow: hidden;">
+              <input type="submit" value="Submit" class="submit">
+            </div>
+          </form>
+        </div>
+
+        <div class="right-content">
+          <h2>Get In Touch !</h2>
+          <p>We'd love to hear from you -please send us your message or ideas. Or simply pop in for a cup of fresh tea
+            and a cookie:</h3>
+
+          <div style="margin-bottom:1rem;">
+            <a style=""><i class="fa-solid fa-envelope"></i> <span style="">HereAndNowAC@gmail.com</span></a>
+          </div>
+          <div style=>
+            <a ><i class="fa-solid fa-phone"></i> <strong>786-306-3736</strong></a>
+          </div>
+          <div class="address">
+            <p> demo Street<br>
+              San Francisco, CA 94105,<br>
+              United States
+            </p>
+          </div>
+          <hr style="color: grey;height:.1px;opacity:.5;margin-bottom:2rem;">
+          <div class="social-icon-container">
+            <h2>Follow Us</h2>
+            <div class="social-icons">
+              <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              </div>
+              <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+              <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <img src="images/favicon.png" style="width:100px;height:70px;">
+    <p class="copyright"><span style="color:#4FBBD9;font-weight: bold;">Here&Now Air Conditioning</span> co. Copyright ©
+      <span id="getYear"></span></p>
+  </footer>
+  <script>
+    const menu = document.getElementById("menu");
+    const bar = document.getElementById("bar");
+    const over = document.getElementById("over");
+    const span_1 = document.getElementById("span_1")
+    const span_2 = document.getElementById("span_2")
+    const span_3 = document.getElementById("span_3")
+    const getYear = document.getElementById("getYear");
+    const d = new Date();
+    let year = d.getFullYear();
+    const gh = getYear.innerHTML = year;
+    console.log(gh);
+    bar.addEventListener("click", function () {
+      const html = document.getElementById("html");
+      console.log(html);
+      menu.classList.toggle('toggle');
+      over.classList.toggle('over');
+      span_2.classList.toggle('active');
+      span_1.classList.toggle('span_1');
+      span_3.classList.toggle('span_3');
+      html.classList.toggle("overflow");
+    });
+  </script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+</body>
+</html>
