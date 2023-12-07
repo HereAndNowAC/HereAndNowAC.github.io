@@ -162,6 +162,7 @@ textarea:hover {
   background-color: black;
   color: white;
   letter-spacing: 2px;
+  cursor:pointer;
 }
 
 .submit:hover {
