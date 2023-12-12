@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200;400&family=Montserrat&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200;400&family=Montserrat&display=swap');
+*/
 
+@font-face {
+    font-family: 'Gordita ';
+    src: url(fonts/GorditaLight/Gordita-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+  }
 *,
 html,
 body {
@@ -10,13 +17,14 @@ body {
     outline: none;
     overflow-x: hidden;
     text-decoration: none;
+    font-family: 'Gordita'; 
 }
 
 ul li {
     font-size: 12px;
     ;
     padding: 1rem;
-    font-family: 'Fahkwang', sans-serif;
+    font-family: 'Gordita';
 }
 
 ul {
@@ -234,7 +242,7 @@ footer {
 
 .copyright {
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gordita';
     color: #252424;
 
     line-height: 28px;
@@ -259,7 +267,7 @@ footer {
 
 .social-icon-container h2 {
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gordita';
     line-height: 26px;
     font-weight: 400px;
     color: #232323;
@@ -344,7 +352,7 @@ footer span {
  .hero-text h3 {
     font-size: 21px;
     text-align: cente;
-    
+    font-family: 'Gordita';
     text-shadow: 1px 1px 3px #4FBBD9;
  }
  
@@ -367,7 +375,7 @@ footer span {
 
  .hero-text button a{
     color:white;
-    font-family: 'Fahkwang', sans-serif;
+    font-family: 'Gordita', sans-serif;
     font-size: 14px;
  }
  .hero-text button:hover{

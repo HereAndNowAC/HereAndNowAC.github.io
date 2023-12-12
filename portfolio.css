@@ -1,6 +1,6 @@
-
+/*
 @import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200;400&family=Montserrat&display=swap');
-
+*/
 #main {
     width: 1300px;
     margin: 0 auto;
@@ -35,7 +35,7 @@ ul {
 }
 
 .portfolio-heading h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gordita', sans-serif;
     font-size: 56px;
     color: #252424;
     font-weight: 400;
