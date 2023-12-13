@@ -78,7 +78,7 @@ nav {
 
 @media only screen and (max-width:992px) {
     .portfolio {
-        padding: 20px 0px;
+        padding: 0 0px;
     }
 }
 
@@ -94,7 +94,7 @@ nav {
     }
 
     .portfolio {
-        margin: 5rem 2rem;
+        margin: 2rem 2rem;
     }
 
 }
