@@ -1,22 +1,12 @@
-/*
-@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200;400&family=Montserrat&display=swap');
-*/
 #main {
     width: 1300px;
     margin: 0 auto;
 }
-nav{
-    padding:2rem 2.9rem;
+
+nav {
+    padding: 2rem 2.9rem;
 }
-/*
-ul {
-    display: flex;
-    justify-content: start;
-    height: inherit;
-    text-align: center;
-    flex-direction: inherit;
-}
-*/
+
 .portfolio {
     padding: 20px 100px;
     border: 2px solid re;
@@ -36,7 +26,7 @@ ul {
 
 .portfolio-heading h1 {
     font-family: 'Gordita', sans-serif;
-    font-size: 56px;
+    font-size: 48px;
     color: #252424;
     font-weight: 400;
     text-align: center;
@@ -58,7 +48,7 @@ ul {
     width:
         350px;
 
-   
+
     overflow: hidden;
     position: relative;
 
@@ -79,8 +69,6 @@ ul {
     opacity: .5;
     opacity: 0;
     transition: opacity .5s ease;
-
-
 }
 
 
@@ -108,21 +96,10 @@ ul {
     .portfolio {
         margin: 5rem 2rem;
     }
- 
+
 }
 
-.video-button{
-  
-  top:50%;
-    content:"";
-    width:60px;
-    height:60px;
-    background-color: red;
-  position: absolute;
-    clip-path: polygon(0 0, 0% 100%, 100% 50%);
-    z-index: 999999999999999;
-    border-radius: 5px;
-}
+
 .gallery-box img {
     max-width: 100%;
     aspect-ratio: 4/4;
@@ -149,34 +126,16 @@ ul {
     margin-block-end: 0 ! important;
 }
 
-
-.gallery-box video{
-    width:100%;
-    height:100%;
-  
+.gallery-box video {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border:none;
-    outline:none;
+    border: none;
+    outline: none;
 }
 
 
-  /*                                                                                                          .active-play{
-    position:fixed ;
-
-    top:50%;
-    left:50% ;
-    transform: translate(-50%, -50%) ;
-    height:auto;
-    width:80% ;
-    box-shadow: 0 0 0 100vh rgba(0,0,0,.7);
-    z-index: 99999 ;
-}
-*/
-.gallery-box:hover .overlay{
+.gallery-box:hover .overlay {
     opacity: 0.7 !important;
     z-index: 11;
 }
-*/
-
-
-  

@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200;400&family=Montserrat&display=swap');
 
 footer {
   border-top: 1px solid rgba(0, 0, 0, .1);
@@ -24,7 +23,7 @@ nav{
 .contact-container h1 {
   text-align: center;
   font-size: 35px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gordita', sans-serif;
   font-weight: 400;
 
   line-height: 62px;
@@ -44,7 +43,6 @@ nav{
 }
 
 .left-content p {
-
   padding-bottom: 1rem;
 }
 
@@ -56,7 +54,7 @@ nav{
 
 input,
 textarea {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gordita', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -80,7 +78,7 @@ textarea:hover {
 
 .left-content,
 .right-content h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gordita', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -88,10 +86,10 @@ textarea:hover {
 }
 
 .right-content h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gordita', sans-serif;
   font-size: 18px;
   line-height: 26px;
-  font-weight: 600px;
+  font-weight: 300;
   color: #232323;
 }
 
@@ -113,7 +111,6 @@ textarea:hover {
   height: initial;
   margin: initial;
   background-color: initial;
-
   display: initial;
 }
 
@@ -127,11 +124,9 @@ textarea:hover {
 
 }
 
-.social-icon-container {}
-
 .social-icon-container h2 {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gordita', sans-serif;
   line-height: 26px;
   font-weight: 400px;
   color: #232323;
