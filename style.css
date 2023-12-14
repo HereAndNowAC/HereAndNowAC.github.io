@@ -334,6 +334,7 @@ footer span {
  }
  .hero-text button{
     padding:8px 20px;
+    border-radius: 5px;
     margin:1rem .3rem;
     outline:none;
     border:2px solid transparent;;
@@ -344,6 +345,7 @@ footer span {
     color:white;
     font-family: 'Gordita', sans-serif;
     font-size: 14px;
+   
  }
  .hero-text button:hover{
     background-color: transparent;

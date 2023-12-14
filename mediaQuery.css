@@ -84,6 +84,14 @@ padding-bottom:1rem;
 
 }
 
+@media only screen and (min-width: 576px) and (max-width: 762px) {
+    .logo img {
+      width: 250px !important;
+      max-width: 100%;
+    }
+  }
+  
+
 @media only screen and (max-width: 576px) {
     .banner {
         height: 350px;
